@@ -1,0 +1,201 @@
+/****************************
+	General
+****************************/
+
+body *{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	margin: 0px;
+}
+
+body {
+	background-color: #ddd;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 15px 5%;
+	font-weight: 300;
+	background-color: #fff;
+	border: 2px solid #000;
+	display: none;
+}
+
+.test {
+	display: none;
+}
+
+.section-title {
+	border-bottom: solid 2px #aaa;
+	margin-bottom: 8px;
+}
+
+#inner-content {
+	padding: 0 10px;
+}
+
+/****************************
+	Two Column Layout        
+****************************/
+
+#primary-content {
+	width: 60%;
+	/*float: left;*/
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 41px;
+}
+
+#secondary-content {
+	width: 35%;
+	/*float: right;*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/****************************
+	Title Bar
+****************************/
+
+#title-bar {
+	text-align: center;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #158ACC;
+	background-color: black;
+	box-shadow: 1px 2px 2px #000;
+}
+
+#title-bar h1 {
+	color: white;
+	margin: 2px;
+	font-weight: 300;
+	font-size: 2.5em;
+}
+
+/****************************
+	Main Content
+****************************/
+
+.content-section {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.employer {
+	font-weight: 500;
+}
+
+.date {
+	font-weight: 700;
+	font-size: .7em;
+}
+
+.job-description{
+	font-size: .8em;
+}
+
+.blue {
+	color: #158ACC;
+}
+
+
+
+/****************************
+	Education Section
+****************************/
+
+.university {
+	font-weight: 500;
+}
+
+#informal-education p {
+	font-weight: 500;
+}
+
+
+/****************************
+	Skillz Section
+****************************/
+
+img {
+	max-width: 100%;
+}
+
+
+/****************************
+	Contact Section
+****************************/
+
+#contact-section {
+	height: 30px;
+	width: 100%;
+	/*overflow: hidden;*/
+	margin: 25px 0;
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+#contact-section ul {
+	list-style: none;
+	float: left;
+	padding-left: 0px;
+}
+
+#contact-section li {
+	float: left;
+	border-right: solid 1px #aaa;
+	padding: 0px 15px;
+	background-image: radial-gradient(circle, #158ACC #ddd);
+
+}
+
+#contact-section li:last-child {
+	border-right: none;
+}
+
+#contact-section img {
+	height: 30px;
+	width: 30px;
+	float: left;
+	border-radius: 100%;
+	background-image: radial-gradient(circle, #158ACC 50%, #ddd 100%);
+}
+
+
+#contact-section li p {
+	font-size: .7em;
+	float: left;
+	padding: 7px 5px 0px 5px;
+
+}
+
+#contact-section a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#contact-section a:visited {
+	color: inherit;
+}
+
+/****************************
+	Button Stuff
+****************************/
+
+button {
+	margin: 0 auto;
+	display: block;
+	width: 1070px;
+	margin: 15px auto;
+	padding: 15px 400px;
+	font-weight: 700;
+	font-size: 24px;
+	background-color: #fff;
+	border: 2px solid #000;
+}
+
+
+
